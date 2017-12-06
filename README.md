@@ -12,12 +12,11 @@ Git is a programme that allows us to easily manage our code.
 
 3. If you want to submit your changes - run the following code
 
-`git add .`
-
-`git commit -m "your message"`
-
-`git push`
-
+```
+git add .
+git commit -m "your message"`
+git push`
+```
 
 # More exlpanations here
 
