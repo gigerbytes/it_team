@@ -15,3 +15,7 @@ Git is a programme that allows us to easily manage our code.
 # More exlpanations here
 
 and so on
+
+# type something
+
+hallo welt
