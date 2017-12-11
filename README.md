@@ -7,7 +7,7 @@ Below, you can find inforamtion and how/where to start in learning your specific
 
 * Example  : Firstname Lastname, firstname2 lastname2, etc.
 * DATABASE :
-* FRONTEND : Alexandre Rouvinez
+* FRONTEND : Alexandre Rouvinez,
 * BACKEND  :
 
 
