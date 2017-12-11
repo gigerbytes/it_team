@@ -13,7 +13,9 @@ Below, you can find inforamtion and how/where to start in learning your specific
 
 ---
 Database: [codecademy](https://www.codecademy.com/learn/learn-sql)
+
 Frontend: [codecademy](https://www.codecademy.com/en/tracks/web)
+
 Backend : [codecademy](https://www.codecademy.com/learn/introduction-to-javascript)
 
 The one to two weeks should be good enough to finish these.
