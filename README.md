@@ -6,7 +6,7 @@ To start with, and as a practice in git - edit this README file to write which g
 Below, you can find inforamtion and how/where to start in learning your specific field, do the exercises, some research and if you find anything interesting, feel free to add them here :)
 
 * Example  : Firstname Lastname, firstname2 lastname2, etc.
-* DATABASE : Benny,
+* DATABASE : Benjamin,
 * FRONTEND : Alexandre Rouvinez,
 * BACKEND  :
 
