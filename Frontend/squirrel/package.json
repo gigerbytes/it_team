@@ -1,0 +1,47 @@
+{
+  "name": "squirrel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node server.js",
+    "build": "webpack",
+    "build_prod": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigerbytes/squirrel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gigerbytes/squirrel/issues"
+  },
+  "homepage": "https://github.com/gigerbytes/squirrel#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "express": "^4.16.2",
+    "npm": "^6.0.0",
+    "pug": "^2.0.0-rc.4",
+    "pug-bootstrap": "0.0.15",
+    "react": "^16.3.2",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.5.0",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-node-externals": "^1.2.0"
+  }
+}

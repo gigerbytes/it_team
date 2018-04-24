@@ -1,0 +1,33 @@
+
+extends ../../node_modules/pug-bootstrap/_bootstrap.pug
+append head
+    title Squirrel
+    link(rel="stylesheet" type="text/css" href="style.css")
+
+append body
+    div.first-element#app
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js')
+    script
+      include bundle.js
+//- 
+//- append body
+//-     div(id="main")
+//-       h1 SHSG Inventory System
+//-       div(class="form-group")
+//-         label(for="usr") Username:
+//-         input(type="text" class="form-control" id="usr")
+//- 
+//-       div(class="form-group")
+//-         label(for="pwd") Password:
+//-         input(type="password" class="form-control" id="pwd")
+//- 
+//-       button(type="button" class="btn btn-default") 
+//-         a(href="dashboard") Login
+//- 
+//-       p
+//-         a(href="#") Create Account
+//-       p
+//-         a(href="#") Forgot Password
+//-     div(id="footer")
+//-       footer Disclaimer: This site is brought to you by the SHSG IT Team

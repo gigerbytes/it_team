@@ -1,0 +1,38 @@
+extends ../node_modules/pug-bootstrap/_bootstrap.pug
+append head
+    title Squirrel
+    link(rel="stylesheet" type="text/css" href="style.css")
+    
+    
+append body
+    div(id="main")
+      h1 SHSG Inventory System
+      p This Webpage is intended to display the entire Inventory of the SHSG
+      p Total Inventory:
+        button(type="button" class="btn btn-default")
+          a(href="#") Sort
+        button(type="button" class="btn btn-default")
+          a(href="#") Filter
+        input(type="search_item" class="form-control" id="srch" placeholder="Search")
+      p
+        button(type="button" class="btn btn-default")
+          a(href="#") Add Item +
+        table(id="example" class="table" cellspacing="0" width="100%")
+          thead
+            tr
+                th Item
+                th ID
+                th Status
+                th Availability
+        
+          tbody
+            tr
+                td Tiger Nixon
+                td System Architect
+                td Edinburgh
+                td 61
+            tr
+                td Garrett Winters
+                td Accountant
+                td Tokyo
+                td 63

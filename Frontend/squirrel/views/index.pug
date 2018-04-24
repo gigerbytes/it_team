@@ -1,0 +1,26 @@
+
+extends ../node_modules/pug-bootstrap/_bootstrap.pug
+append head
+    title Squirrel
+    link(rel="stylesheet" type="text/css" href="style.css")
+
+append body
+    div(id="main")
+      h1 SHSG Inventory System
+      div(class="form-group")
+        label(for="usr") Username:
+        input(type="text" class="form-control" id="usr")
+
+      div(class="form-group")
+        label(for="pwd") Password:
+        input(type="password" class="form-control" id="pwd")
+      
+      button(type="button" class="btn btn-default") 
+        a(href="dashboard") Login
+      
+      p
+        a(href="#") Create Account
+      p
+        a(href="#") Forgot Password
+    div(id="footer")
+      footer Disclaimer: This site is brought to you by the SHSG IT Team
