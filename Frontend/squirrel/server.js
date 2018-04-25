@@ -20,7 +20,7 @@ app.get("/", function(req, res) {
 })
 
 app.get("/dashboard", function(req, res) {
-  res.render("src/components/dashboard/Dashboard")
+  res.render("dashboard")
 })
 
 app.listen(port)
